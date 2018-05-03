@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.yan.attendance.main.UserMsgActivity">
+
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:layout_margin="16dp"
+            android:layout_centerHorizontal="true"
+            android:text="编辑资料"/>
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_margin="8dp"
+            android:src="@drawable/ic_arrow_back_black_24dp"/>
+
+    </RelativeLayout>
+    </android.support.design.widget.AppBarLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="54dp"
+        android:layout_marginBottom="32dp"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:padding="16dp"
+            android:background="@drawable/linearlayout_border_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textSize="16sp"
+                android:paddingRight="16dp"
+                android:textColor="@color/black"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="昵称："/>
+           <EditText
+               android:id="@+id/user_msg_name"
+               android:background="@null"
+               android:padding="5dp"
+               android:layout_width="0dp"
+               android:layout_weight="1"
+               android:text="云之彼端梦"
+               android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_marginTop="20dp"
+            android:padding="16dp"
+            android:background="@drawable/linearlayout_border_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textSize="16sp"
+                android:paddingRight="16dp"
+                android:textColor="@color/black"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="手机号："/>
+            <EditText
+                android:id="@+id/phoneEdit"
+                android:background="@null"
+                android:text="18738976628"
+                android:padding="5dp"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:padding="16dp"
+            android:background="@drawable/linearlayout_border_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textSize="16sp"
+                android:paddingRight="16dp"
+                android:textColor="@color/black"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="学号："/>
+            <EditText
+                android:id="@+id/studentIdEdit"
+                android:text="1510121178"
+                android:background="@null"
+                android:padding="5dp"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:padding="16dp"
+            android:background="@drawable/linearlayout_border_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textSize="16sp"
+                android:paddingRight="16dp"
+                android:textColor="@color/black"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="真实姓名："/>
+            <EditText
+                android:id="@+id/realNameEdit"
+                android:text="闫世昌"
+                android:background="@null"
+                android:padding="5dp"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+
+    <Button
+        android:id="@+id/UpUserMsg"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:background="@drawable/button_groups_circular"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="保存"/>
+
+    </LinearLayout>
+</android.support.design.widget.CoordinatorLayout>

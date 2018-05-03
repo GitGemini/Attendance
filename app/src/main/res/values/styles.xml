@@ -1,0 +1,25 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="EditTextLogin" parent="Theme.AppCompat.Light">
+        <item name="colorControlNormal">@color/inputBg</item>
+        <item name="colorControlActivated">@color/loginButton</item>
+    </style>
+    <style name="EditTextRegister" parent="Theme.AppCompat.Light">
+        <item name="colorControlNormal">@color/inputBg</item>
+        <item name="colorControlActivated">@color/registerButton</item>
+    </style>
+    
+    <style name="popup_window_anim">
+        <item name="android:windowEnterAnimation">@anim/in</item>
+        <item name="android:windowExitAnimation">@anim/out</item>
+    </style>
+
+</resources>
